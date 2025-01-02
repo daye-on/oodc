@@ -66,23 +66,23 @@
 -  eo3_intertidal
 -  eo3_landsat_ard
 -  eo3_sentinel_ard
-1. metadata type yaml 파일 다운로드
+2. metadata type yaml 파일 다운로드
    <br> 하단 Definition View Raw &rightarrow; 다른 이름으로 저장
-2. docker desktop index-1 View files
+3. docker desktop index-1 View files
    <br> 다운로드 받은 metadata yaml 파일 drag & drop
-3. docker desktop index-1 터미널
+4. docker desktop index-1 터미널
    - datacube metadata add 다운받은파일
-4. [1] 의 metadata type에 해당하는 product 선택 [예시](https://explorer.dea.ga.gov.au/products/ga_ls9c_ard_3)
-5. product yaml 파일 다운로드
+5. [2] 의 metadata type에 해당하는 product 선택 [예시](https://explorer.dea.ga.gov.au/products/ga_ls9c_ard_3)
+6. product yaml 파일 다운로드
    <br> 하단 Definition View Raw &rightarrow; 다른 이름으로 저장
-6. [3] 과정 반복
-7. docker desktop index-1 터미널
+7. [3] 과정 반복
+8. docker desktop index-1 터미널
    - datacube product add 다운받은파일
-8. [5] 의 product에 해당하는 dataset 선택 [예시](https://explorer.dea.ga.gov.au/products/ga_ls9c_ard_3/datasets/bb3b9c93-0238-448f-83ee-a8df86207631)
-9.  dataset yaml 파일 다운로드
+9. [5] 의 product에 해당하는 dataset 선택 [예시](https://explorer.dea.ga.gov.au/products/ga_ls9c_ard_3/datasets/bb3b9c93-0238-448f-83ee-a8df86207631)
+10.  dataset yaml 파일 다운로드
    <br> 하단 Definition View Raw &rightarrow; 다른 이름으로 저장
-10. [3] 과정 반복
-11. docker desktop index-1 터미널
+11. [3] 과정 반복
+12. docker desktop index-1 터미널
     - datacube dataset add 다운받은파일
 
 
