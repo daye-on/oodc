@@ -49,11 +49,43 @@
 <br><br>
 ### Database setup
 1. docker desktop postgres-1 터미널
-   1. su - postgres
-   2. createdb datacube
+   - su - postgres
+   - createdb datacube
 2. docker desktop index-1 터미널
-   1. datacube -v system init
+   - datacube -v system init
 3. DB connection 확인
    <br>url : jdbc:postgresql://localhost:5434/postgres
    <br>username : postgres
    <br>password : opendatacubepassword
+
+<br><br>
+### Configuring the ODC Database
+1. [Metadata Types](https://explorer.dea.ga.gov.au/metadata-types)
+   <br>v1.9에서 지원하는 metadata types은 eo3
+   -  eo3
+   -  eo3_intertidal
+   -  eo3_landsat_ard
+   -  eo3_sentinel_ard
+2. metadata type yaml 파일 다운로드
+   <br> 하단 Definition View Raw &rightarrow; 다른 이름으로 저장
+3. docker desktop index-1 View files
+   <br> 다운로드 받은 metadata yaml 파일 drag & drop
+4. docker desktop index-1 터미널
+   - datacube metadata add 다운받은파일
+5. [1] 의 metadata type에 해당하는 product 선택 [예시](https://explorer.dea.ga.gov.au/products/ga_ls9c_ard_3)
+6. product yaml 파일 다운로드
+   <br> 하단 Definition View Raw &rightarrow; 다른 이름으로 저장
+7. [3] 과정 반복
+8. docker desktop index-1 터미널
+   - datacube product add 다운받은파일
+9. [5] 의 product에 해당하는 dataset 선택 [예시](https://explorer.dea.ga.gov.au/products/ga_ls9c_ard_3/datasets/bb3b9c93-0238-448f-83ee-a8df86207631)
+10. dataset yaml 파일 다운로드
+   <br> 하단 Definition View Raw &rightarrow; 다른 이름으로 저장
+11. [3] 과정 반복
+12. docker desktop index-1 터미널
+    - datacube dataset add 다운받은파일
+
+
+<br><br>
+Ref: [Open Data Cube](https://datacube-core.readthedocs.io/en/stable/installation/index.html)<br>
+Ref: [Digital Earth Australia](https://explorer.dea.ga.gov.au/products)
