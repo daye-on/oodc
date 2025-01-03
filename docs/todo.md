@@ -1,0 +1,1 @@
+1. 원본데이터 → odc-metadata.yaml 파일 생성
