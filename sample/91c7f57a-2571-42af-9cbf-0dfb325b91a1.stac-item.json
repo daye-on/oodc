@@ -1,0 +1,854 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/view/v1.0.0/schema.json"
+    ],
+    "id": "91c7f57a-2571-42af-9cbf-0dfb325b91a1",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    154.02024307166909,
+                    -28.48293055179195
+                ],
+                [
+                    152.10919542797257,
+                    -28.10140462514663
+                ],
+                [
+                    152.10921630765128,
+                    -28.101341574876614
+                ],
+                [
+                    152.10827123595283,
+                    -28.10114587644108
+                ],
+                [
+                    152.2170816284736,
+                    -27.68581171626902
+                ],
+                [
+                    152.25440132133386,
+                    -27.543430433577903
+                ],
+                [
+                    152.39974322664287,
+                    -26.9871538465693
+                ],
+                [
+                    152.54467228540673,
+                    -26.428091781753984
+                ],
+                [
+                    152.5570363501516,
+                    -26.381160782139197
+                ],
+                [
+                    152.55878926766704,
+                    -26.381527364094417
+                ],
+                [
+                    152.56604252110162,
+                    -26.382759450888205
+                ],
+                [
+                    152.74159708301403,
+                    -26.418940022145254
+                ],
+                [
+                    154.42918343754894,
+                    -26.754623416669578
+                ],
+                [
+                    154.43970056365185,
+                    -26.756945300507205
+                ],
+                [
+                    154.43970056365185,
+                    -26.756945300507205
+                ],
+                [
+                    154.44068851108767,
+                    -26.757142887297036
+                ],
+                [
+                    154.44011479716065,
+                    -26.760290182038883
+                ],
+                [
+                    154.02272406131772,
+                    -28.478543390063393
+                ],
+                [
+                    154.02149846087895,
+                    -28.482812815453876
+                ],
+                [
+                    154.0205896837445,
+                    -28.48285574348624
+                ],
+                [
+                    154.02030314641124,
+                    -28.48280373876142
+                ],
+                [
+                    154.02024307166909,
+                    -28.48293055179195
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        152.10827123595283,
+        -28.48293055179195,
+        154.44068851108767,
+        -26.381160782139197
+    ],
+    "properties": {
+        "created": "2024-12-30T09:44:47.079199Z",
+        "dea:dataset_maturity": "nrt",
+        "dea:product_maturity": "stable",
+        "eo:cloud_cover": 88.68651545904528,
+        "gsd": 15.0,
+        "instruments": [
+            "oli",
+            "tirs"
+        ],
+        "platform": "landsat-9",
+        "view:sun_azimuth": 88.67399818,
+        "view:sun_elevation": 61.0362664,
+        "fmask:clear": 6.416799740163394,
+        "fmask:cloud": 88.68651545904528,
+        "fmask:cloud_shadow": 1.4111905747957272,
+        "fmask:snow": 0.001306018266435294,
+        "fmask:water": 3.484188207729163,
+        "gqa:abs_iterative_mean_x": 0.21,
+        "gqa:abs_iterative_mean_xy": 0.39,
+        "gqa:abs_iterative_mean_y": 0.34,
+        "gqa:abs_x": 0.38,
+        "gqa:abs_xy": 0.69,
+        "gqa:abs_y": 0.58,
+        "gqa:cep90": 0.56,
+        "gqa:iterative_mean_x": 0.18,
+        "gqa:iterative_mean_xy": 0.27,
+        "gqa:iterative_mean_y": 0.2,
+        "gqa:iterative_stddev_x": 0.2,
+        "gqa:iterative_stddev_xy": 0.39,
+        "gqa:iterative_stddev_y": 0.34,
+        "gqa:mean_x": 0.29,
+        "gqa:mean_xy": 0.3,
+        "gqa:mean_y": 0.07,
+        "gqa:stddev_x": 0.48,
+        "gqa:stddev_xy": 0.94,
+        "gqa:stddev_y": 0.81,
+        "landsat:collection_category": "T1",
+        "landsat:collection_number": 2,
+        "landsat:landsat_product_id": "LC09_L1TP_089079_20241229_20241230_02_T1",
+        "landsat:landsat_scene_id": "LC90890792024364LGN00",
+        "landsat:wrs_path": 89,
+        "landsat:wrs_row": 79,
+        "odc:dataset_version": "3.2.1",
+        "odc:file_format": "GeoTIFF",
+        "odc:producer": "ga.gov.au",
+        "odc:product_family": "ard",
+        "odc:region_code": "089079",
+        "proj:epsg": 32656,
+        "proj:shape": [
+            7781,
+            7711
+        ],
+        "proj:transform": [
+            30.0,
+            0.0,
+            412185.0,
+            0.0,
+            -30.0,
+            -2917785.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "title": "ga_ls9c_ard_3-2-1_089079_2024-12-29_nrt",
+        "datetime": "2024-12-29T23:42:16.211774Z"
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": "C:/Users/dayeon/Workspaces/oodc/91c7f57a-2571-42af-9cbf-0dfb325b91a1.stac-item.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "odc_yaml",
+            "href": "91c7f57a-2571-42af-9cbf-0dfb325b91a1.odc-metadata.yaml",
+            "type": "text/yaml",
+            "title": "ODC Dataset YAML"
+        }
+    ],
+    "assets": {
+        "oa_fmask": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_fmask.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_fmask",
+            "eo:bands": [
+                {
+                    "name": "oa_fmask"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "nbart_nir": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_nbart_3-2-1_089079_2024-12-29_nrt_band05.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "nbart_nir",
+            "eo:bands": [
+                {
+                    "name": "nbart_nir"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "nbart_red": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_nbart_3-2-1_089079_2024-12-29_nrt_band04.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "nbart_red",
+            "eo:bands": [
+                {
+                    "name": "nbart_red"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "nbart_blue": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_nbart_3-2-1_089079_2024-12-29_nrt_band02.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "nbart_blue",
+            "eo:bands": [
+                {
+                    "name": "nbart_blue"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "nbart_green": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_nbart_3-2-1_089079_2024-12-29_nrt_band03.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "nbart_green",
+            "eo:bands": [
+                {
+                    "name": "nbart_green"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "nbart_swir_1": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_nbart_3-2-1_089079_2024-12-29_nrt_band06.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "nbart_swir_1",
+            "eo:bands": [
+                {
+                    "name": "nbart_swir_1"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "nbart_swir_2": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_nbart_3-2-1_089079_2024-12-29_nrt_band07.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "nbart_swir_2",
+            "eo:bands": [
+                {
+                    "name": "nbart_swir_2"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_time_delta": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_time-delta.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_time_delta",
+            "eo:bands": [
+                {
+                    "name": "oa_time_delta"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_solar_zenith": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_solar-zenith.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_solar_zenith",
+            "eo:bands": [
+                {
+                    "name": "oa_solar_zenith"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_exiting_angle": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_exiting-angle.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_exiting_angle",
+            "eo:bands": [
+                {
+                    "name": "oa_exiting_angle"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_solar_azimuth": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_solar-azimuth.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_solar_azimuth",
+            "eo:bands": [
+                {
+                    "name": "oa_solar_azimuth"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_incident_angle": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_incident-angle.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_incident_angle",
+            "eo:bands": [
+                {
+                    "name": "oa_incident_angle"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_relative_slope": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_relative-slope.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_relative_slope",
+            "eo:bands": [
+                {
+                    "name": "oa_relative_slope"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_satellite_view": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_satellite-view.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_satellite_view",
+            "eo:bands": [
+                {
+                    "name": "oa_satellite_view"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "nbart_panchromatic": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_nbart_3-2-1_089079_2024-12-29_nrt_band08.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "nbart_panchromatic",
+            "eo:bands": [
+                {
+                    "name": "nbart_panchromatic"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                15561,
+                15421
+            ],
+            "proj:transform": [
+                15.0,
+                0.0,
+                412192.5,
+                0.0,
+                -15.0,
+                -2917792.5,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_nbart_contiguity": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_nbart-contiguity.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_nbart_contiguity",
+            "eo:bands": [
+                {
+                    "name": "oa_nbart_contiguity"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_relative_azimuth": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_relative-azimuth.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_relative_azimuth",
+            "eo:bands": [
+                {
+                    "name": "oa_relative_azimuth"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_azimuthal_exiting": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_azimuthal-exiting.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_azimuthal_exiting",
+            "eo:bands": [
+                {
+                    "name": "oa_azimuthal_exiting"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_satellite_azimuth": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_satellite-azimuth.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_satellite_azimuth",
+            "eo:bands": [
+                {
+                    "name": "oa_satellite_azimuth"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "nbart_coastal_aerosol": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_nbart_3-2-1_089079_2024-12-29_nrt_band01.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "nbart_coastal_aerosol",
+            "eo:bands": [
+                {
+                    "name": "nbart_coastal_aerosol"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_azimuthal_incident": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_azimuthal-incident.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_azimuthal_incident",
+            "eo:bands": [
+                {
+                    "name": "oa_azimuthal_incident"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "oa_combined_terrain_shadow": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_oa_3-2-1_089079_2024-12-29_nrt_combined-terrain-shadow.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "oa_combined_terrain_shadow",
+            "eo:bands": [
+                {
+                    "name": "oa_combined_terrain_shadow"
+                }
+            ],
+            "proj:epsg": 32656,
+            "proj:shape": [
+                7781,
+                7711
+            ],
+            "proj:transform": [
+                30.0,
+                0.0,
+                412185.0,
+                0.0,
+                -30.0,
+                -2917785.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "checksum:sha1": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_ard_3-2-1_089079_2024-12-29_nrt.sha1",
+            "type": "text/plain",
+            "roles": [
+                "metadata"
+            ]
+        },
+        "thumbnail:nbart": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_nbart_3-2-1_089079_2024-12-29_nrt_thumbnail.jpg",
+            "type": "image/jpeg",
+            "title": "Thumbnail image",
+            "roles": [
+                "thumbnail"
+            ]
+        },
+        "metadata:processor": {
+            "href": "s3://dea-public-data/baseline/ga_ls9c_ard_3/089/079/2024/12/29_nrt/ga_ls9c_ard_3-2-1_089079_2024-12-29_nrt.proc-info.yaml",
+            "type": "text/yaml",
+            "roles": [
+                "metadata"
+            ]
+        }
+    },
+    "collection": "ga_ls9c_ard_3"
+}
